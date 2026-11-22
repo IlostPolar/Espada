@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="montante_do_cometa"
+version="1.0.0"
+displayName="Montante do Cometa"
+description='''
+Uma espadona forjada na luz de um cometa, guardada pelos Popozudos da Caixa.
+Clique com o botao direito para invocar a Queda do Cometa.
+'''
+
+[[dependencies.montante_do_cometa]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.montante_do_cometa]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.montante_do_cometa]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.4,)"
+    ordering="AFTER"
+    side="BOTH"

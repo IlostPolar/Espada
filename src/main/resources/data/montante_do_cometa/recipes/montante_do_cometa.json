@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " N ",
+    "ESE",
+    " B "
+  ],
+  "key": {
+    "N": { "item": "minecraft:nether_star" },
+    "E": { "item": "minecraft:end_rod" },
+    "S": { "item": "minecraft:netherite_sword" },
+    "B": { "item": "minecraft:blaze_rod" }
+  },
+  "result": { "item": "montante_do_cometa:montante_do_cometa" }
+}
